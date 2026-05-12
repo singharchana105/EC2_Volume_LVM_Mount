@@ -18,7 +18,7 @@ Step 5. (Physical volume, volume group, logical volume create)
          - lvcreate -L +5G -n archu_logic archu_vol [logical volume of 5GB created]
           For preview Run - lvdisplay
 
-Step 6. where to mount data we have to decide path . so generally mount data in mnt folder.
+Step 6. sudo su. switched to root user then where to mount data we have to decide the path. So generally mount data in mnt folder.
 ls, cd mnt , mkdir vol
 
 Step 7. logical volume extension has to be changed, so for that
